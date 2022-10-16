@@ -1,0 +1,169 @@
+/* Fonts */
+.my-font, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Merienda One", cursive;
+}
+
+/* Les Couleurs */
+
+.fa-shopping-cart {
+    background-image: linear-gradient(135deg,
+    rgba(214, 130, 52, 1) 0%,
+    rgba(143, 91, 254, 1) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    margin: 10px 0px 12px 10px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2px;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+section.jumbotron.order-fraiming {
+    padding-bottom: 1px;
+}
+
+.my-color {
+    color: #F8CFA5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+body {
+    background: linear-gradient(0deg, #ddfcf8 0%, #f3e9f1 90%);
+    background-blend-mode: normal;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+/*-------------- Fin du Header ----------*/
+
+main {
+    /*width: 80%;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: "Merienda One", cursive;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 40vw;
+}
+
+.button {
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff !important;
+    background-color: rgb(100, 24, 3);
+    border-color: black;
+    margin: 10px;
+}
+
+a {
+    color: white;
+}
+
+h3.valideTitle {
+    font-family: 'Merienda One';
+    padding-top: 15px;
+    font-weight: bolder;
+    color: red;
+}
+
+h4.valideIntro {
+    font-family: 'Merienda One';
+    color: blue;
+}
+
+div#total-price {
+    font-size: 24px;
+    font-weight: bolder;
+    color: brown;
+}
+
+p.pIdOrder {
+    font-size: 20px;
+}
+
+/* ----------------------------FOOTER---------------------------- */
+#footer {
+    position: relative;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.container.py-5 {
+    padding-top: 20px !important;
+    padding-bottom: 2px !important;
+}
+
+.footer h2, h3, h4, h5, h6, p {
+    font-family: var(--bs-font-sans-serif);
+}
+
+footer h2 {
+    font-size: 22px;
+    color: #c7606a;
+    font-family: var(--bs-font-sans-serif);
+}
+
+footer li {
+    color: #c7606a;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.list-unstyled.d-flex.gap-1.justify-content-lg-center {
+    margin-bottom: 8px !important;
+}
+
+.list-unstyled {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.text-decoration-underline.link-light {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: var(--bs-font-sans-serif);
+    color: bisque;
+}
+
+/* ----------------------MEDIAQUERIES-------------------------*/
+
+/* --------------------993px à 1400 px-----------------------*/
+@media all and (min-width:993px) and (max-width:1400px)
+{
+
+
+
+}    
+
+/* --------------------668px à 992 px-----------------------*/
+@media all and (min-width:668px) and (max-width:992px)
+{
+
+
+
+}
+
+/* --------------------375px à 667 px-----------------------*/
+@media all and (min-width:375px) and (max-width:667px)
+{
+
+
+}    

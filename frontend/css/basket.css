@@ -1,0 +1,465 @@
+/* Fonts */
+.my-font, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Merienda One", cursive;
+}
+
+/* Les Couleurs */
+
+.fa-shopping-cart {
+    background-image: linear-gradient(135deg,
+    rgba(214, 130, 52, 1) 0%,
+    rgba(143, 91, 254, 1) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+body {
+    background: linear-gradient(0deg, #ddfcf8 0%, #f3e9f1 90%);
+    background-blend-mode: normal;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.jumbotron {
+    background-color: #f3e9f1;
+}
+
+.fa-shopping-cart {
+    font-size: 20px;
+    margin: 10px 0px 12px 10px;
+}
+
+.my-color {
+    color: #F8CFA5;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100%;
+}
+
+/* ----------------------------BANNER---------------------------- */
+.carousel-item {
+    height: 50vh;
+    min-height: 350px ;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-caption h4 {
+    font-size: 26px;
+}  
+
+.col-12 {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.carousel.slide {
+    padding-bottom: 20px !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+#myCarousel.carousel.slide.mb-5 {
+    padding-bottom: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+/* --------------------------------------------------------*/
+.jumbotron {
+    background-color: white;
+    padding: 20px;
+    margin: 5px;
+    }
+}
+
+#forme-globale {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#getProductFromLocalStorageToBasket{
+    /*width: 100%;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    margin: 5px 15vw 5px 15vw;
+}
+
+.recap-basket-title{
+    font-family: "Merienda One", cursive !important;
+    padding-bottom: 15px;
+    color:black;
+    text-shadow: 0.03em 0.03em 0.05em black;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+
+.full-basket {
+    width: 100%;
+    font-family: "Merienda One", cursive !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: solid 1px rgb(95, 12, 1);
+    box-shadow: 0 7px 7px rgb(0 0 0 / 42%), 3px 1px 2px rgb(0 0 0 / 24%);
+    padding: 10px 10px 10px 10px;
+    margin: 5px 20px 5px 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.img-basket {
+    width: 100px;
+}
+
+p.info-basket {
+    font-family: "Merienda One", cursive !important;
+    text-align: left;
+    min-width: 12vw;
+    margin: 10px 2px 10px 2px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Kalam', sans-serif !important;
+    color: rgb(0 39 154);
+    text-shadow: 0.01em 0.01em 0.03em rgb(105, 2, 2);
+}
+
+.btn-supprimer{
+    cursor: pointer;
+}
+
+.total-cart-price{
+    font-family: "Merienda One", cursive !important;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(236, 10, 10);
+    margin: 30px;
+}
+
+/*Formulaire*/
+.form-order {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Merienda One", cursive !important;
+    flex-wrap: wrap;
+    border: solid 1px rgb(95, 12, 1);
+    box-shadow: 0 7px 7px rgb(0 0 0 / 42%), 3px 1px 2px rgb(0 0 0 / 24%);
+    text-align: center;
+    justify-content: center;
+    margin: 5px 22vw 5px 22vw;
+    gap: 10px;   
+}
+
+div.name {
+    width: 100%;
+}
+
+input#firstName.contact {
+    width: 45%;
+}
+
+input#lastName.contact {
+    width: 45%;
+}
+
+input#adress {
+    width: 95%;
+}
+
+input#postCode {
+    width: 45%;
+}
+
+input#city {
+    width: 45%;
+}
+
+input#tel {
+    width: 35%;
+}
+
+input#email {
+    width: 55%;
+}
+
+textarea#commentary {
+    width: 95%;
+}
+
+.le-paiement {
+    padding: 0;
+    margin: 0;
+}
+
+#form {
+    padding: 0;
+    margin: 0;
+}
+
+.payement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.button {
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff !important;
+    background-color: rgb(100, 24, 3);
+    border-color: black;
+    margin: 0 10px 20px 10px;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-position: -100px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
+
+input, optgroup, select, textarea {
+    margin: 6px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+
+h4.formTitle {
+    font-family: "Merienda One", cursive !important;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+/* ----------------------------FOOTER---------------------------- */
+#footer {
+    position: relative;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.container.py-5 {
+    padding-top: 20px !important;
+    padding-bottom: 2px !important;
+}
+
+.footer h2, h3, h4, h5, h6, p {
+    font-family: var(--bs-font-sans-serif);
+}
+
+footer h2 {
+    font-size: 22px;
+    color: #c7606a;
+    font-family: var(--bs-font-sans-serif);
+}
+
+footer li {
+    color: #c7606a;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.list-unstyled.d-flex.gap-1.justify-content-lg-center {
+    margin-bottom: 8px !important;
+}
+
+.list-unstyled {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.text-decoration-underline.link-light {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: var(--bs-font-sans-serif);
+    color: bisque;
+}
+
+/* ----------------------MEDIAQUERIES-------------------------*/
+
+/* --------------------993px à 1400 px-----------------------*/
+@media all and (min-width:993px) and (max-width:1400px)
+{
+    .carousel-item {
+    height: 40vh;
+    min-height: 300px ;
+    }
+
+    .cards {
+        margin: 1em;
+        box-shadow: 0px 0px 10px 0.4px;
+        width: 45%;
+    }
+
+    .card-title {
+        font-size: 26px !important;
+    }
+
+    .input-form {
+        width: 90%;
+    }
+
+}    
+
+/* --------------------668px à 992 px-----------------------*/
+@media all and (min-width:668px) and (max-width:992px)
+{
+    .img-basket {
+        width: inherit;
+    }
+
+    .form-order {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Merienda One", cursive !important;
+        flex-wrap: wrap;
+        border: solid 1px rgb(95, 12, 1);
+        box-shadow: 0 7px 7px rgb(0 0 0 / 42%), 3px 1px 2px rgb(0 0 0 / 24%);
+        text-align: center;
+        justify-content: center;
+        margin: 5px 2vw 5px 2vw;
+        gap: 10px;
+    }
+
+    .input-form {
+        width: 90%;
+    }
+
+    div.name {
+        width: 100%;
+    }
+    
+    input#firstName.contact {
+        width: 46%;
+    }
+    
+    input#lastName.contact {
+        width: 46%;
+    }
+    
+    input#adress {
+        width: 95%;
+    }
+    
+    input#postCode {
+        width: 46%;
+    }
+    
+    input#city {
+        width: 46%;
+    }
+    
+    input#tel {
+        width: 36%;
+    }
+    
+    input#email {
+        width: 56%;
+    }
+    
+    textarea#commentary {
+        width: 95%;
+    }
+}
+
+/* --------------------375px à 667 px-----------------------*/
+@media all and (min-width:375px) and (max-width:667px)
+{
+
+    .full-basket {
+        width: 100%;
+        font-family: "Merienda One", cursive !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid 1px rgb(95, 12, 1);
+        box-shadow: 0 7px 7px rgb(0 0 0 / 42%), 3px 1px 2px rgb(0 0 0 / 24%);
+        padding: 10px 10px 10px 10px;
+        margin: 5px 20px 5px 20px;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    p.info-basket {
+        font-family: "Merienda One", cursive !important;
+        text-align: left;
+        min-width: 12vw;
+        margin: 1px 2px 10px 2px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Kalam', sans-serif !important;
+        color: rgb(0 39 154);
+        text-shadow: 0.01em 0.01em 0.03em rgb(105, 2, 2);
+    }
+
+    .img-basket {
+        width: 48vw;
+    }
+
+
+    .recap-basket-title {
+        font-family: "Merienda One", cursive !important;
+        padding-bottom: 15px;
+        color: black;
+        text-shadow: 0.03em 0.03em 0.05em black;
+        text-decoration: underline;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .form-order {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Merienda One", cursive !important;
+        flex-wrap: wrap;
+        border: solid 1px rgb(95, 12, 1);
+        box-shadow: 0 7px 7px rgb(0 0 0 / 42%), 3px 1px 2px rgb(0 0 0 / 24%);
+        text-align: center;
+        justify-content: center;
+        margin: 5px 2vw 5px 2vw;
+        gap: 10px;
+    }
+}    

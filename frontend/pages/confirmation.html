@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="./images/Orinoco_logo_3.png"> 
+   
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Merienda Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap"/>
+
+        <!-- Font Awesome CSS -->
+        <script src="https://kit.fontawesome.com/fbe62a62bd.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">  
+        
+        <!--Css-->
+        <link rel="stylesheet" type="text/css" href="../css/confirmation.css">       
+        <title>Merci pour votre Commande</title>
+    </head>
+    <body onload="onLoadCommand()">
+        <!--------------------------- Start Header with navigation bar --------------------------->
+        <header class="bg-dark my-font">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navbar navbar-expand-lg navbar-dark">
+                            <a href="/frontend/index.html" class="navbar-brand">
+                                <i class="fa fa-2x fa-shopping-cart"></i>
+                                <span class="font-weight-bold">Orinoco </span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <ul id="navbarContent" class="justify-content-end navbar-nav collapse navbar-collapse">
+                                <li class="nav-item active">
+                                    <a href="./products-list.html" class="nav-link">Produits</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./basket.html" class="nav-link">Panier</a>
+                                </li>
+                                <i class="fas fa-shopping-cart pt-2 mt-1"></i>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!----------------------------- End Header with navigation bar ----------------------------->
+            <!--Main-->
+            <main>
+                <section class="jumbotron order-fraiming">
+                    <div class="row-jumbotron">
+                        <div class="div-gif-order">
+                            <img src="../gif/camera.gif" class="gif-order" abindex="0">
+                        </div>
+                        <div class="thanksTitle">
+                            <h3 class="valideTitle" tabindex="0">Votre commande est Validée !</h3>
+                            <h4 class="valideIntro" tabindex="0">Merci d'avoir passé commande !<span class="return-lign"> Elle est en cours de préparation.</span> <br>Nous vous contacterons dès son envoie !</h4>
+                            <div id="divTotalPrice"></div>
+                            <div id="order-id-display"></div>
+                        </div>
+                        <!--Bouton-->
+                        <div class="buttonOrder" role="button" aria-label="Bouton">
+                            <button id="button-back-home" class="button" tabindex="0"><a href="../index.html">Retour à la page Orinoco</a></button>
+                            <button class="button"tabindex="0"><a href="../pages/products-list.html">Autres produits</a></button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!--JS-->
+            <script type="text/javascript" src="../js/confirmation.js"></script>
+            <script type="text/javascript" src="../js/nav-toggle.js"></script>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    </body>
+    <!-- -------------------------------- Footer with links  -------------------------------- -->
+    <footer class="bg-dark text-white mt-3 p-1" id="bloc-3-footer">
+        <div class="container py-5">
+            <div class="row mb-5">
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h2 class="text-uppercase fs-5">Rejoignez-nous</h2>
+                    <ul class="list-unstyled d-flex gap-4">
+                        <li><a href="#">
+                            <i class="bi bi-facebook" style="color: white; font-size: 1.4rem;"></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="bi bi-twitter" style="color: white; font-size: 1.4rem;"></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="bi bi-youtube" style="color: white; font-size: 1.4rem;"></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="bi bi-instagram" style="color: white; font-size: 1.4rem;"></i>
+                        </a></li>                    
+                    </ul>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h2 class="text-uppercase fs-5">A propos</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="link-light text-decoration-none">Qui sommes nous?</a></li>
+                        <li><a href="mailto:camille.nicolas93@gmail.com" class="nav-link-footer font-weight-bold">Nous Contacter</a></li>
+                        <li><a href="#" class="link-light text-decoration-none">Carrières</a></li>
+                        <li><a href="#" class="link-light text-decoration-none">Mentions légales</a></li>
+                        <li><a href="#" class="link-light text-decoration-none">C G V</a></li>                    
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                    <h2 class="text-uppercase fs-5">Services</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="link-light text-decoration-none">Nos produits</a></li>
+                        <li><a href="#" class="link-light text-decoration-none">Programme fidélité</a></li>
+                        <li><a href="#" class="link-light text-decoration-none">Livraison & retours</a></li>
+                        <li><a href="#" class="link-light text-decoration-none">Protection données</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h2 class="text-uppercase fs-5">Newsletter</h2>
+                    <p>Soyez informé(e) de nos nouveaux arrivages, nos promotions, etc.</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control fw-light" placeholder="Entrez votre adresse mail">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default bg-secondary" type="button"><i class="bi bi-envelope-fill text-white"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col px-3">
+                    <ul class="list-unstyled d-flex gap-1 justify-content-lg-center">
+                        <li><a href="#" class="text-decoration-underline link-light"> Copyright© 08 / 2021 </a></li>
+                        <li>|</li>
+                        <li><a href="#" class="text-decoration-underline link-light"> Powered by M. EL-KHABOU</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>

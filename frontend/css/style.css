@@ -1,0 +1,221 @@
+/* Fonts */
+.my-font, h1, h2, h3, h4, h5, h6, p {
+    font-family: "Merienda One", cursive;
+}
+
+/* Les Couleurs */
+
+.fa-shopping-cart {
+    background-image: linear-gradient(135deg,
+    rgba(214, 130, 52, 1) 0%,
+    rgba(143, 91, 254, 1) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+body {
+    background: linear-gradient(0deg, #ddfcf8 0%, #f3e9f1 90%);
+    background-blend-mode: normal;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.jumbotron {
+    background-color: #f3e9f1;
+}
+
+.fa-shopping-cart {
+    font-size: 20px;
+    margin: 10px 0px 12px 10px;
+}
+
+.my-color {
+    color: #F8CFA5;
+}
+
+/* ----------------------------BANNER---------------------------- */
+.carousel-item {
+    height: 50vh;
+    min-height: 350px ;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-caption h4 {
+    font-size: 26px;
+}  
+
+.col-12 {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.carousel.slide {
+    padding-bottom: 20px !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+#myCarousel.carousel.slide.mb-5 {
+    padding-bottom: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+/* ----------------------------PRODUCTS CONTAINER---------------------------- */
+.h2, h2 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.h3, h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: "Merienda One", cursive;
+    color: red;
+}
+
+.cards {
+  margin: 1em;
+  box-shadow: 0px 0px 10px 0.4px;
+  width: 30%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem ;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.4rem;
+}
+
+
+a.btn.btn-primary {
+    display: grid;
+    align-self: flex-end !important;
+}
+
+/* ----------------------------FOOTER---------------------------- */
+#footer {
+    position: relative;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.container.py-5 {
+    padding-top: 20px !important;
+    padding-bottom: 2px !important;
+}
+
+.footer h2, h3, h4, h5, h6, p {
+    font-family: var(--bs-font-sans-serif);
+}
+
+footer h2 {
+    font-size: 22px;
+    color: #c7606a;
+    font-family: var(--bs-font-sans-serif);
+}
+
+footer li {
+    color: #c7606a;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.list-unstyled.d-flex.gap-1.justify-content-lg-center {
+    margin-bottom: 8px !important;
+}
+
+.list-unstyled {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.text-decoration-underline.link-light {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: var(--bs-font-sans-serif);
+    color: bisque;
+}
+
+/* ----------------------MEDIAQUERIES-------------------------*/
+
+/* --------------------993px à 1400 px-----------------------*/
+@media all and (min-width:993px) and (max-width:1400px)
+{
+    .carousel-item {
+    height: 40vh;
+    min-height: 300px ;
+    }
+
+    .cards {
+        margin: 1em;
+        box-shadow: 0px 0px 10px 0.4px;
+        width: 45%;
+    }
+
+    .card-title {
+        font-size: 26px !important;
+    }
+
+
+}    
+
+/* --------------------668px à 992 px-----------------------*/
+@media all and (min-width:668px) and (max-width:992px)
+{
+    .carousel-item {
+    height: 32vh;
+    min-height: 250px ;
+    }
+
+    .cards {
+        margin: 1em;
+        box-shadow: 0px 0px 10px 0.4px;
+        width: 43%;
+    }
+
+    .card-title {
+        font-size: 26px !important;
+    }
+
+
+
+}
+
+/* --------------------375px à 667 px-----------------------*/
+@media all and (min-width:375px) and (max-width:667px)
+{
+    .carousel-item {
+    height: 25vh;
+    min-height: 180px ;
+    }
+
+    .cards {
+        margin: 1em;
+        box-shadow: 0px 0px 10px 0.4px;
+        width: 90%;
+    }
+
+    .card-title {
+        font-size: 26px !important;
+    }
+
+
+}    
